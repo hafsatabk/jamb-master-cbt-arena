@@ -1,0 +1,23 @@
+{
+  "name": "jamb-master-backend",
+  "version": "1.0.0",
+  "description": "JAMB Master CBT Arena Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["jamb", "cbt", "quiz"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
